@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background: #66abec;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #99ddff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Main container */
+main {
+    overflow: hidden; /* to contain floated elements */
+    margin: 20px;
+}
+
+/* Section floats left */
+section {
+    float: left;
+    width: 70%;
+    background: #73b9da;
+    padding: 15px;
+    border: 1px solid #ffffff;
+}
+
+/* Articles inside section */
+article {
+    background: #8cb2dd;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+/* Aside floats left (next to section) */
+aside {
+    float: left;
+    width: 28%;
+    margin-left: 2%; /* small gap */
+    background: #e08ece;
+    padding: 15px;
+    border: 1px solid #aaa;
+}
+
+/* Footer clears floats */
+footer {
+    background: #555555;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
